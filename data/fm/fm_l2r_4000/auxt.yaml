@@ -1,0 +1,13 @@
+source: ../../../../start.sh
+await: true
+jobs: 20
+parallel: false
+iter: 600
+bpe_model: ../../../bpe/fm-4000/fm.4000.model
+source_dropout: 0.1
+train_path: ../../../processed/falko-merlin/train/train.over.reg
+valid_pref: ../eval/fm-4000/valid
+test_pref: ../eval/fm-4000/test
+false_pref: ../eval/fm-4000/false
+threads: 1
+

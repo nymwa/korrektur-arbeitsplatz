@@ -1,0 +1,7 @@
+m2scorer: ../m2scorer/m2scorer/m2scorer
+fm:
+   valid_bpe_src: ../data/fm/eval/fm-4000-rev/valid.src
+   test_bpe_src: ../data/fm/eval/fm-4000-rev/test.src
+   valid_m2: ../corpora/falko-merlin/data/fm-dev.m2
+   test_m2: ../corpora/falko-merlin/data/fm-test.m2
+
