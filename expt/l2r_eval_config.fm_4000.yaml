@@ -1,7 +1,11 @@
 m2scorer: ../m2scorer/m2scorer/m2scorer
 fm:
+   false_bpe_src: ../data/fm/eval/fm-4000/false.src
+   false_bpe_trg: ../data/fm/eval/fm-4000/false.trg
    valid_bpe_src: ../data/fm/eval/fm-4000/valid.src
+   valid_bpe_trg: ../data/fm/eval/fm-4000/valid.trg
    test_bpe_src: ../data/fm/eval/fm-4000/test.src
+   test_bpe_trg: ../data/fm/eval/fm-4000/test.trg
    valid_m2: ../corpora/falko-merlin/data/fm-dev.m2
    test_m2: ../corpora/falko-merlin/data/fm-test.m2
 
