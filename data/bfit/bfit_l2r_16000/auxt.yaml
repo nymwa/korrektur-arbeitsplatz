@@ -1,0 +1,20 @@
+source: ../../../../start.sh
+await: true
+jobs: 30
+parallel: false
+iter: 500
+max_len: 150
+bpe_model: ../../../bpe/bfit-16000/bfit.16000.model
+source_dropout: 0.1
+fm_train_path: ../../../processed/falko-merlin/train/train.over.reg
+wf_train_path: ../../../processed/wilfce/train.over
+mt_train_path: ../../../processed/iwslt/train
+ta_train_path: ../../../processed/tatoeba/train
+fm_valid_pref: ../eval/bfit-16000/valid.fm
+fm_test_pref: ../eval/bfit-16000/test.fm
+fm_false_pref: ../eval/bfit-16000/false.fm
+wf_valid_pref: ../eval/bfit-16000/valid.wf
+wf_test_pref: ../eval/bfit-16000/test.wf
+wf_false_pref: ../eval/bfit-16000/false.wf
+threads: 1
+

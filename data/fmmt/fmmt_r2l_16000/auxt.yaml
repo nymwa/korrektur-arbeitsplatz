@@ -1,0 +1,15 @@
+source: ../../../../start.sh
+await: true
+jobs: 20
+parallel: false
+iter: 500
+bpe_model: ../../../bpe/fmmt-16000/fmmt.16000.model
+source_dropout: 0.1
+r2l: true
+fm_train_path: ../../../processed/falko-merlin/train/train.over.reg
+mt_train_path: ../../../processed/iwslt/train
+valid_pref: ../eval/fmmt-16000-rev/valid
+test_pref: ../eval/fmmt-16000-rev/test
+false_pref: ../eval/fmmt-16000-rev/false
+threads: 1
+

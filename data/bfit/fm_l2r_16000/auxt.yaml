@@ -1,0 +1,15 @@
+source: ../../../../start.sh
+await: true
+jobs: 30
+parallel: false
+iter: 300
+max_len: 150
+bpe_model: ../../../bpe/bfit-16000/bfit.16000.model
+source_dropout: 0.1
+src_dict_path: ../bfit_l2r_16000/0/data-bin/dict.src.txt
+fm_train_path: ../../../processed/falko-merlin/train/train.over.reg
+fm_valid_pref: ../eval/bfit-16000/valid.fm
+fm_test_pref: ../eval/bfit-16000/test.fm
+fm_false_pref: ../eval/bfit-16000/false.fm
+threads: 1
+

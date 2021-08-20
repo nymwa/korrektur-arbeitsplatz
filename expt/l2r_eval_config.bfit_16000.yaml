@@ -1,0 +1,20 @@
+m2scorer: ../m2scorer/m2scorer/m2scorer
+fm:
+   false_bpe_src: ../data/bfit/eval/bfit-16000/false.fm.src
+   false_bpe_trg: ../data/bfit/eval/bfit-16000/false.fm.trg
+   valid_bpe_src: ../data/bfit/eval/bfit-16000/valid.fm.src
+   valid_bpe_trg: ../data/bfit/eval/bfit-16000/valid.fm.trg
+   test_bpe_src: ../data/bfit/eval/bfit-16000/test.fm.src
+   test_bpe_trg: ../data/bfit/eval/bfit-16000/test.fm.trg
+   valid_m2: ../corpora/falko-merlin/data/fm-dev.m2
+   test_m2: ../corpora/falko-merlin/data/fm-test.m2
+wf:
+   false_bpe_src: ../data/bfit/eval/bfit-16000/false.wf.src
+   false_bpe_trg: ../data/bfit/eval/bfit-16000/false.wf.trg
+   valid_bpe_src: ../data/bfit/eval/bfit-16000/valid.wf.src
+   valid_bpe_trg: ../data/bfit/eval/bfit-16000/valid.wf.trg
+   test_bpe_src: ../data/bfit/eval/bfit-16000/test.wf.src
+   test_bpe_trg: ../data/bfit/eval/bfit-16000/test.wf.trg
+   valid_m2: ../corpora/conll13/release2.3.1/original/data/official-preprocessed.m2
+   test_m2: ../corpora/conll14/conll14st-test-data/noalt/official-2014.combined.m2
+
