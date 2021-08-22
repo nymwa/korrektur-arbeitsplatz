@@ -31,8 +31,8 @@ score:
 rerank:
    r2l_path: ../trgonly_r2l
    r2l_vocab: /home/koyama.s/korrektur/arbeitsplatz/data/fm/fm_r2l_4000/0/data-bin/dict.src.txt
-   mlm_arch_list:
-      - bert-base-german-cased
-      - bert-base-german-dbmdz-cased
+   fm:
+      mlm_arch_list:
+         - bert-base-german-dbmdz-cased
    lambda: [0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.225, 0.25, 0.275, 0.3]
 
